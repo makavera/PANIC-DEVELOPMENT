@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #05010d;
+    color: white;
+    overflow-x: hidden;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at center, rgba(0,180,255,0.15), transparent 60%),
+        radial-gradient(circle at top, rgba(180,0,255,0.25), transparent 50%);
+    z-index: -1;
+}
+
+.container {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 70px;
+    background: linear-gradient(135deg, #00eaff, #9b00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+        0 0 15px rgba(0,200,255,0.8),
+        0 0 35px rgba(155,0,255,0.6);
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #cfcfff;
+    opacity: 0.85;
+}
+
+/* Cards */
+.cards {
+    margin-top: 60
+}
